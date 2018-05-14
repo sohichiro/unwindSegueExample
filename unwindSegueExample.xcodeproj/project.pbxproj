@@ -35,6 +35,7 @@
 		61E96D7320A9ECFF00C7F734 /* B3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E96D7220A9ECFF00C7F734 /* B3ViewController.swift */; };
 		61E96D7520A9ED0800C7F734 /* B4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E96D7420A9ED0800C7F734 /* B4ViewController.swift */; };
 		61E96D7720A9ED1200C7F734 /* B5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E96D7620A9ED1200C7F734 /* B5ViewController.swift */; };
+		61E96D7920AA51FC00C7F734 /* CreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E96D7820AA51FC00C7F734 /* CreamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		61E96D7220A9ECFF00C7F734 /* B3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B3ViewController.swift; sourceTree = "<group>"; };
 		61E96D7420A9ED0800C7F734 /* B4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B4ViewController.swift; sourceTree = "<group>"; };
 		61E96D7620A9ED1200C7F734 /* B5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5ViewController.swift; sourceTree = "<group>"; };
+		61E96D7820AA51FC00C7F734 /* CreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				61E96D3620A9C36D00C7F734 /* AppDelegate.swift */,
 				61E96D4820A9C59900C7F734 /* WhiteViewController.swift */,
 				61E96D3A20A9C36D00C7F734 /* Main.storyboard */,
+				61E96D7820AA51FC00C7F734 /* CreamViewController.swift */,
 				61E96D6420A9ECAF00C7F734 /* A1ViewController.swift */,
 				61E96D6620A9ECC300C7F734 /* A2ViewController.swift */,
 				61E96D6820A9ECCE00C7F734 /* A3ViewController.swift */,
@@ -225,6 +228,7 @@
 				61E96D6F20A9ECEC00C7F734 /* B1ViewController.swift in Sources */,
 				61E96D4B20A9C5BD00C7F734 /* BlueViewController.swift in Sources */,
 				61E96D5F20A9E25400C7F734 /* WineViewController.swift in Sources */,
+				61E96D7920AA51FC00C7F734 /* CreamViewController.swift in Sources */,
 				61E96D6320A9E28500C7F734 /* DarkBlueViewController.swift in Sources */,
 				61E96D3720A9C36D00C7F734 /* AppDelegate.swift in Sources */,
 				61E96D4F20A9C5F300C7F734 /* CyanViewController.swift in Sources */,

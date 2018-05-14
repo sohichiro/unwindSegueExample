@@ -26,25 +26,27 @@ class B5ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("viewDidAppear on \(String(describing: self))")
+        print("----------viewDidAppear on \(type(of: self))--------------------------------------------------")
         print("presentedViewControllerViewController is \(String(describing: self.presentedViewController))")
-        print("presentingViewController is \(String(describing: self.presentingViewController))")
+        print("presentingViewController is \(type(of: self.presentingViewController))")
         if let navigationController = self.navigationController?.childViewControllers {
             print("navigationController.childViewController has ...")
-            navigationController.forEach{ print(String(describing: $0)) }
+            navigationController.forEach{ print(type(of: $0)) }
         }
+        print("----------------------------------------------------------------------------------------------")
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("viewDidAppear on \(String(describing: self))")
+        print("----------viewDidDisappear on \(type(of: self))-----------------------------------------------")
         print("presentedViewControllerViewController is \(String(describing: self.presentedViewController))")
-        print("presentingViewController is \(String(describing: self.presentingViewController))")
-        self.childViewControllers.forEach{ print(String(describing: $0)) }
+        print("presentingViewController is \(type(of: self.presentingViewController))")
+        self.childViewControllers.forEach{ print(type(of: $0)) }
         if let navigationController = self.navigationController?.childViewControllers {
             print("navigationController.childViewController has ...")
-            navigationController.forEach{ print(String(describing: $0)) }
+            navigationController.forEach{ print(type(of: $0)) }
         }
+        print("----------------------------------------------------------------------------------------------")
     }
     /*
     // MARK: - Navigation
